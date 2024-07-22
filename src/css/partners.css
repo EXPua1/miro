@@ -1,0 +1,20 @@
+.partners_container {
+  padding: 60px 160px;
+}
+.partners_title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 133%;
+  text-align: center;
+  color: rgba(5, 0, 56, 0.6);
+}
+
+.partners_img {
+  display: flex;
+  justify-content: center;
+}
+.partners_img_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,108 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vanilla App Template</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <style></style>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Vanilla App Template</title>
-  <link rel="stylesheet" href="./css/styles.css" />
-  <style>
-
-  </style>
-</head>
-
-<body>
-  <header class="container">
-    <div class="header_inner">
-
-      <nav class="header_nav">
-        <img src="./img/header/logo.png" alt="">
-        <ul class="header_list">
-          <li class="header_list_items">
-            <a href="">Product</a>
-          </li>
-          <li class="header_list_items">
-            <a href="">Solutions</a>
-          </li>
-          <li class="header_list_items">
-            <a href="">Resources</a>
-          </li>
-          <li class="header_list_items">
-            <a href="">Enterprise</a>
-          </li>
-          <li class="header_list_items">
-            <a href="">Pricing</a>
-          </li>
-        </ul>
-      </nav>
-      <div class="header_user_action">
-        <img src="./img/header/planet.png" alt="Planet Icon">
-        <ul class="header_user_action_list">
-          <li>EN</li>
-          <li>Contact Sales</li>
-          <li>Login</li>
-          <li><button class="sign_btn">Sign up free →</button></li>
-        </ul>
+  <body>
+    <header class="container">
+      <div class="header_inner">
+        <nav class="header_nav">
+          <img src="./img/header/logo.png" alt="" />
+          <ul class="header_list">
+            <li class="header_list_items">
+              <a href="">Product</a>
+            </li>
+            <li class="header_list_items">
+              <a href="">Solutions</a>
+            </li>
+            <li class="header_list_items">
+              <a href="">Resources</a>
+            </li>
+            <li class="header_list_items">
+              <a href="">Enterprise</a>
+            </li>
+            <li class="header_list_items">
+              <a href="">Pricing</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header_user_action">
+          <img src="./img/header/planet.png" alt="Planet Icon" />
+          <ul class="header_user_action_list">
+            <li>EN</li>
+            <li>Contact Sales</li>
+            <li>Login</li>
+            <li><button class="sign_btn">Sign up free →</button></li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </header>
-  <main>
-
-    <!-- HERO SECTION -->
-    <section class="ul_padding">
-      <div class="container hero_container ">
-
-        <div class="hero_signup">
-          <h2 class="hero_title">Take ideas from better to best</h2>
-          <p class="hero_par">Miro is your team's visual platform to connect, collaborate, and create — together.</p>
-          <input class="hero_input" type="text" name="email" id="email" placeholder="Enter your work email">
-          <button class="hero_btn_sign">Sign up free →</button>
-          <p class="hero_collaborate">Collaborate with your team within minutes</p>
-          <div class="hero_rating">
-            <div class="hero_stars">
-              <img src="./img/hero/star.png">
-              <img src="./img/hero/star.png">
-              <img src="./img/hero/star.png">
-              <img src="./img/hero/star.png">
-              <img src="./img/hero/halfstar.png">
-              <p class="star_par">Based on 5149+ reviews:</p>
-
-            </div>
-            <div class="hero_stars_icons">
-              <ul class="hero_stars_icons_list">
-                <li><img src="./img/hero/1.png" alt=""></li>
-                <li><img src="./img/hero/2.png" alt=""></li>
-                <li><img src="./img/hero/3.png" alt=""></li>
-              </ul>
-
-            </div>
-
-
-
-
-            <div>
-
+    </header>
+    <main>
+      <!-- HERO SECTION -->
+      <section class="ul_padding">
+        <div class="container hero_container">
+          <div class="hero_signup">
+            <h2 class="hero_title">Take ideas from better to best</h2>
+            <p class="hero_par">
+              Miro is your team's visual platform to connect, collaborate, and
+              create — together.
+            </p>
+            <input
+              class="hero_input"
+              type="text"
+              name="email"
+              id="email"
+              placeholder="Enter your work email"
+            />
+            <button class="hero_btn_sign">Sign up free →</button>
+            <p class="hero_collaborate">
+              Collaborate with your team within minutes
+            </p>
+            <div class="hero_rating">
+              <div class="hero_stars">
+                <img src="./img/hero/star.png" />
+                <img src="./img/hero/star.png" />
+                <img src="./img/hero/star.png" />
+                <img src="./img/hero/star.png" />
+                <img src="./img/hero/halfstar.png" />
+                <p class="star_par">Based on 5149+ reviews:</p>
+              </div>
+              <div class="hero_stars_icons">
+                <ul class="hero_stars_icons_list">
+                  <li><img src="./img/hero/1.png" alt="" /></li>
+                  <li><img src="./img/hero/2.png" alt="" /></li>
+                  <li><img src="./img/hero/3.png" alt="" /></li>
+                </ul>
+              </div>
+              <div></div>
             </div>
           </div>
+          <div class="hero_img">
+            <img src="./img/hero/hero.png" alt="" />
+          </div>
         </div>
-        <div class="hero_img">
-          <img src="./img/hero/hero.png" alt="">
+      </section>
+
+      <!-- section partners -->
+      <section class="ul_padding">
+        <div class="container">
+          <h2 class="partners_title">Trusted by 45M+ users</h2>
+          <div class="partners_img partners_container">
+            <ul class="partners_img_list">
+              <li>
+                <img src="./img/partners/Walmart_Index_Only.svg.svg" alt="" />
+              </li>
+              <li><img src="./img/partners/cisco.svg.svg" alt="" /></li>
+              <li>
+                <img src="./img/partners/Volvo_Index_Only.svg.svg" alt="" />
+              </li>
+              <li><img src="./img/partners/deloitte.svg.svg" alt="" /></li>
+              <li><img src="./img/partners/okta.svg.svg" alt="" /></li>
+            </ul>
+          </div>
         </div>
+      </section>
+      <!-- section collobarate -->
+      <section class="ul_padding">
+        <div class="collobarate_main container">
+          <h2 class="colobarate_title">Collaborate without constraints</h2>
+          <img
+            class="colobarate_img"
+            src="./img/collobarate/yourIdea.png"
+            alt=""
+          />
+        </div>
+        <div>
+          <ul class="collobarate_list">
+            <li>
+              <h2 class="colobarate_list_title">Free forever</h2>
+              <p class="colobarate_list_title_par">
+                Our free plan gives you unlimited team members, 3 boards, and
+                300+ expert-made templates. Signing up with your work email lets
+                you bring in your team faster. See our
+                <span class="color_accent">pricing plans</span> for more
+                features.
+              </p>
+            </li>
+            <li>
+              <h2 class="colobarate_list_title">Easy integrations</h2>
+              <p class="colobarate_list_title_par">
+                Miro has 100+ powerful integrations with tools you already use
+                like G Suite, Slack, and Jira, so your workflow is seamless.
+                View the full list in our
+                <span class="color_accent">Marketplace</span> .
+              </p>
+            </li>
+            <li>
+              <h2 class="colobarate_list_title">Security first</h2>
+              <p class="colobarate_list_title_par">
+                We treat your data like you would — with the utmost care. We
+                follow industry-leading security standards and give you tools to
+                protect intellectual property. Learn more at our
+                <span class="color_accent">Trust Center</span> .
+              </p>
+            </li>
+          </ul>
+          <div class="colobarate_bnt_container">
+            <button class="colobarate_btn">Sign up free →</button>
+          </div>
+        </div>
+      </section>
+    </main>
 
-
-      </div>
-    </section>
-
-
-
-
-
-
-  </main>
-
-
-  <script type="module" src="./main.js"></script>
-</body>
-
+    <script type="module" src="./main.js"></script>
+  </body>
 </html>
