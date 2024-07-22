@@ -1,24 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
-    <link rel="stylesheet" href="./css/styles.css" />
-  </head>
-  <body>
-    <load ="partials/header.html" />
 
-    <section>
-      <h1>Example page title</h1>
-      <!-- Path to images as from index.html file -->
-      <img src="./img/javascript.svg" alt="" />
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vanilla App Template</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+  <style>
+
+  </style>
+</head>
+
+<body>
+  <header class="container">
+    <div class="header_inner">
+
+      <nav class="header_nav">
+        <img src="./img/header/logo.png" alt="">
+        <ul class="header_list">
+          <li class="header_list_items">
+            <a href="">Product</a>
+          </li>
+          <li class="header_list_items">
+            <a href="">Solutions</a>
+          </li>
+          <li class="header_list_items">
+            <a href="">Resources</a>
+          </li>
+          <li class="header_list_items">
+            <a href="">Enterprise</a>
+          </li>
+          <li class="header_list_items">
+            <a href="">Pricing</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header_user_action">
+        <img src="./img/header/planet.png" alt="Planet Icon">
+        <ul class="header_user_action_list">
+          <li>EN</li>
+          <li>Contact Sales</li>
+          <li>Login</li>
+          <li><button class="sign_btn">Sign up free →</button></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <main>
+
+    <!-- HERO SECTION -->
+    <section class="ul_padding">
+      <div class="container hero_container ">
+
+        <div class="hero_signup">
+          <h2 class="hero_title">Take ideas from better to best</h2>
+          <p class="hero_par">Miro is your team's visual platform to connect, collaborate, and create — together.</p>
+          <input class="hero_input" type="text" name="email" id="email" placeholder="Enter your work email">
+          <button class="hero_btn_sign">Sign up free →</button>
+          <p class="hero_collaborate">Collaborate with your team within minutes</p>
+          <div class="hero_rating">
+            <div class="hero_stars">
+              <img src="./img/hero/star.png">
+              <img src="./img/hero/star.png">
+              <img src="./img/hero/star.png">
+              <img src="./img/hero/star.png">
+              <img src="./img/hero/halfstar.png">
+              <p class="star_par">Based on 5149+ reviews:</p>
+
+            </div>
+            <div class="hero_stars_icons">
+              <ul class="hero_stars_icons_list">
+                <li><img src="./img/hero/1.png" alt=""></li>
+                <li><img src="./img/hero/2.png" alt=""></li>
+                <li><img src="./img/hero/3.png" alt=""></li>
+              </ul>
+
+            </div>
+
+
+
+
+            <div>
+
+            </div>
+          </div>
+        </div>
+        <div class="hero_img">
+          <img src="./img/hero/hero.png" alt="">
+        </div>
+
+
+      </div>
     </section>
 
-    <!-- Loads the specified .html file -->
-    <load ="partials/vite-promo.html" />
 
-    <script type="module" src="./main.js"></script>
-  </body>
+
+
+
+
+  </main>
+
+
+  <script type="module" src="./main.js"></script>
+</body>
+
 </html>
