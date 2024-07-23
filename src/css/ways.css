@@ -7,11 +7,11 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  display: block; /* Убирает пробелы вокруг изображения */
+  display: block;
 }
 
 .ways_title_container {
-  position: absolute; /* Абсолютное позиционирование внутри контейнера */
+  position: absolute;
   right: 14%;
   top: 50%;
   transform: translateY(-50%);
