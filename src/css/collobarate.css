@@ -14,11 +14,12 @@
   justify-content: center;
   position: relative;
   width: 448px;
+  margin: 0 auto;
 }
 .colobarate_img {
   position: absolute;
-  top: -209%;
-  right: 27%;
+  top: -186%;
+  right: -11%;
 }
 
 .collobarate_list {
@@ -66,4 +67,13 @@
 .colobarate_bnt_container {
   display: flex;
   justify-content: center;
+}
+
+.collobarate_list li {
+  width: calc((100% - (20px * 2)) / 3);
+  padding: 23px 22px 44px 24px;
+}
+
+.collobarate_list {
+  padding: 0px 10px 0px 10px;
 }
