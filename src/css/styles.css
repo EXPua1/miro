@@ -4,6 +4,8 @@
   | default @import url()
   |============================
 */
+@import url('./why.css');
+@import url('./built.css');
 @import url('./ways.css');
 @import url('./connection.css');
 @import url('./work_together.css');
