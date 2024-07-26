@@ -4,6 +4,8 @@
   | default @import url()
   |============================
 */
+@import url('./footer.css');
+@import url('./join.css');
 @import url('./loved.css');
 @import url('./why.css');
 @import url('./built.css');
