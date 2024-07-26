@@ -1,6 +1,7 @@
 .built_list {
   display: flex;
   gap: 8px;
+  justify-content: center;
 }
 
 .built_title {
